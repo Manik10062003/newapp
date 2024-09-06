@@ -1,0 +1,95 @@
+/* img{
+    width: 100%;
+    height: auto;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: tomato;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+}
+button{
+    background-color: darkgreen;
+    color: black;
+    
+} */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px;
+    background-color: #220515;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.website-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.navbar.scrolled {
+    background-color: white;
+    color: #333;
+}
+
+.navbar.scrolled .menu a {
+    color: #333;
+}
+
+/* Hero Image Styles */
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Content Styles */
+.content {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+}
